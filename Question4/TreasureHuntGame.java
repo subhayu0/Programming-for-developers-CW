@@ -61,7 +61,7 @@
 package Question4;
 import java.util.*;
 
-public class Question4b {
+public class TreasureHuntGame {
 
     static final int DRAW = 0;
     static final int PLAYER1_WIN = 1;
@@ -114,7 +114,7 @@ public class Question4b {
     }
 
     public static void main(String[] args) {
-        Question4b game = new Question4b();
+        TreasureHuntGame game = new TreasureHuntGame();
         int[][] graph = {
             {2, 5},
             {3},

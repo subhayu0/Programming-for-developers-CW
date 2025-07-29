@@ -45,10 +45,10 @@
 package Question4;
 import java.util.*;
 
-public class Question4a {
+public class SecureTransmission {
     private final Map<Integer, List<int[]>> graph;
 
-    public Question4a(int n, int[][] links) {
+    public SecureTransmission(int n, int[][] links) {
         graph = new HashMap<>();
         for (int i = 0; i < n; i++) {
             graph.put(i, new ArrayList<>());
